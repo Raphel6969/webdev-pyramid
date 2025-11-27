@@ -4,7 +4,7 @@
 Master full-stack web development through progressive project building.
 
 ## 📊 Progress
-- [ ] Level 1: HTML (Days 1-2)
+- [X] Level 1: HTML (Days 1-2)
 - [ ] Level 2: HTML + CSS (Days 3-5)
 - [ ] Level 3: JavaScript (Days 6-10)
 - [ ] Level 4: Bootstrap (Days 11-13)
@@ -16,7 +16,7 @@ Master full-stack web development through progressive project building.
 - [ ] Level 10: Docker + Redis (Days 43-50)
 
 ## 🏗️ Projects
-[List will grow as you build]
+- HTML portifolio Site
 
 ## 📚 Resources
 [Links to docs, tutorials you found helpful]
