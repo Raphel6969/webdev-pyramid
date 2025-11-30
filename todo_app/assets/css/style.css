@@ -1,0 +1,137 @@
+/* ===== Global ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/martin-martz-aT24h1Lm_vw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== Header / Title ===== */
+nav {
+    margin-top: 2rem;
+}
+
+nav div a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* ===== Main section ===== */
+section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.todo_box {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+/* ===== Todo row ===== */
+.todos {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 999px;
+    padding: 0.4rem 0.6rem;
+    min-width: 320px;
+    max-width: 420px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* checkbox */
+.check {
+    width: 18px;
+    height: 18px;
+}
+
+/* text input */
+.task {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+    padding: 0 0.75rem;
+    background: transparent;
+    font-size: 1rem;
+}
+
+/* action buttons */
+.todos button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todos button img {
+    width: 24px;
+    height: 24px;
+}
+
+/* ===== Add button ===== */
+.add {
+    margin-top: 0.75rem;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.add_img {
+    width: 32px;
+    height: 32px;
+}
+
+/* ===== Footer ===== */
+footer {
+    margin: 2rem 0;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
